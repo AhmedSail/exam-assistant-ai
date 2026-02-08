@@ -1,0 +1,80 @@
+export default [
+  {
+    model: "GPT",
+    icon: "/gpt.png",
+    premium: true,
+    enable: true,
+    subModel: [
+      { name: "GPT 3.5", premium: false, id: "" },
+      { name: "GPT 3.5 Turbo", premium: false, id: "" },
+      { name: "GPT 4.1 Mini", premium: false, id: "" },
+      { name: "GPT 4.1", premium: true, id: "" },
+      { name: "GPT 5 Nano", premium: false, id: "" },
+      { name: "GPT 5 Mini", premium: false, id: "" },
+      { name: "GPT 5", premium: true, id: "" },
+    ],
+  },
+  {
+    model: "Gemini",
+    icon: "/gemini.png",
+    premium: true,
+    enable: true,
+    subModel: [
+      { name: "Gemini 1.5 Flash", premium: false, id: "" },
+      { name: "Gemini 1.5 Pro", premium: false, id: "" },
+      { name: "Gemini 2.5 Flash", premium: false, id: "" },
+      { name: "Gemini 2.5 Pro", premium: false, id: "" },
+      { name: "Gemini 3 Pro", premium: true, id: "" },
+    ],
+  },
+  {
+    model: "Llama",
+    icon: "/llama.png",
+    premium: false,
+    enable: true,
+    subModel: [
+      { name: "Llama 3.1 8B", premium: false, id: "" },
+      { name: "Llama 3.1 70B", premium: false, id: "" },
+      { name: "Llama 4 8B", premium: false, id: "" },
+      { name: "Llama 4 70B", premium: false, id: "" },
+    ],
+  },
+  {
+    model: "Mistral",
+    icon: "/mistral.png",
+    premium: false,
+    enable: true,
+    subModel: [
+      { name: "Mistral 7B", premium: false, id: "" },
+      { name: "Mistral 8x7B", premium: false, id: "" },
+      { name: "Mistral 8x22B", premium: true, id: "" },
+    ],
+  },
+  {
+    model: "DeepSeek",
+    icon: "/deepseek.png",
+    premium: false,
+    enable: true,
+    subModel: [
+      { name: "DeepSeek V3", premium: false, id: "" },
+      { name: "DeepSeek V3 Pro", premium: true, id: "" },
+    ],
+  },
+  {
+    model: "Grok",
+    icon: "/grok.png",
+    premium: true,
+    enable: true,
+    subModel: [{ name: "Grok 3", premium: true, id: "" }],
+  },
+  {
+    model: "Cohere",
+    icon: "/cohere.png",
+    premium: false,
+    enable: true,
+    subModel: [
+      { name: "Command R", premium: false, id: "" },
+      { name: "Command R+", premium: true, id: "" },
+    ],
+  },
+];

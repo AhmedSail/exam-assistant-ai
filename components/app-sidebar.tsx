@@ -10,6 +10,7 @@ import { Moon, Plus, Sun, User } from "lucide-react";
 import Image from "next/image";
 import { useTheme } from "next-themes";
 import { Button } from "./ui/button";
+import AppHeader from "./app-header";
 
 export function AppSidebar() {
   const { theme, setTheme } = useTheme();
